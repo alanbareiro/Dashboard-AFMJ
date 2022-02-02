@@ -53,7 +53,7 @@ function ProductsInDb() { /*son los productos*/
     <div className="col-lg-6 mb-4 big-card">
       <div className="card shadow mb-4">
         <div className="card-header py-3">
-          <h6 className="m-0 font-weight-bold title-bd ">List Of Products In DB</h6>
+          <h6 className="m-0 font-weight-bold title-bd">List Of Products In DB</h6>
         </div>
 
         <div className="card-body">
@@ -67,7 +67,7 @@ function ProductsInDb() { /*son los productos*/
 
                   return (
                     
-                    <li className="primera" key={i}>
+                    <li key={i}>
 
                       <h5 className="list-name"><i class="hoja fas fa-leaf"></i> {product.name}</h5>
 

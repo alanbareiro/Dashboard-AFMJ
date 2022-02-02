@@ -2,7 +2,6 @@
 *{
     margin: 0;
     box-sizing: border-box;
-
 }
 
 h2{
@@ -38,6 +37,11 @@ margin-top: 10px;
 .top{
     padding: 15px;
 }
+
+.color{
+    color: #082f46;
+}
+
 p{
     color:#082f46 ;
     
@@ -70,11 +74,6 @@ span{
 .big-card{
    width: 100%;
 }
-.primera{
- 
- padding: 0.2rem;
-}
-
 .list-name{
     text-align: center;
 }
@@ -128,7 +127,7 @@ span{
 
  .dash-text{
     font-weight: 700; 
-    font-size: 200%                                                                                                                                                                                                                                                                                                                                                    ;
+    font-size: 1.4rem;                                                                                                                                                                                                                                                                                                                                                    ;
  }
 
  .align-center{
@@ -142,5 +141,6 @@ span{
 
  .img{
      display: flex;
-     justify-content: center;
+     align-items: center;
+     justify-content:space-around
  }
